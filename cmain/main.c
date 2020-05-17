@@ -13,7 +13,14 @@ void main()
 
     int z2 = MyProd(x0, y0);
 
+    int z3 = my_square(x0);
+
+    char *s0 = "hello world!";
+    int z4 = MyStrLen(s0);
+
     printf("使用c编译的so库: %d + %d = %d\n", x0, y0, z0);
     printf("使用go编译的so库: %f ** %f = %f\n", x1, y1, z1);
     printf("使用go编译的so库: %d * %d = %d\n", x0, y0, z2);
+    printf("使用go编译的so库: 字符串`%s`的长度是%d\n", s0, z4);
+    printf("使用cpp编译的so库: %d^2 = %d\n", x0, z3);
 }

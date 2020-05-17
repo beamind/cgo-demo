@@ -73,6 +73,8 @@ extern GoInt MyProd(GoInt p0, GoInt p1);
 
 extern GoFloat64 MyPow(GoFloat64 p0, GoFloat64 p1);
 
+extern GoInt MyStrLen(char* p0);
+
 #ifdef __cplusplus
 }
 #endif
